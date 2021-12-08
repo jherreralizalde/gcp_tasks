@@ -1,6 +1,7 @@
 !/bin/bash
 echo 'test' > /test.txt
 apt-get update -y
+apt-get install cowsay -y
 apt-get install aptitude -y
 apt update
  apt -y install apache2
